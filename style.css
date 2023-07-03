@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Inter Variable", sans-serif;
+  font-size: 1.5em;
+}
+ul {
+  list-style: none;
+  line-height: 1.5em;
+}
+li {
+  position: relative;
+  margin-bottom: 0.8em;
+  padding-left: 2.5rem;
+}
+
+li:first-child:before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: #5ce600;
+  border: 0.25rem solid hsla(0, 0%, 100%, 0.84);
+  border-radius: 50%;
+}
+
+li:nth-child(2):before {
+  content: "🐻";
+  position: absolute;
+  left: 0;
+}
+
+li:nth-child(3):before {
+  content: "3";
+  font-size: 1rem;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  top:0.3rem;
+  left: 0;
+  border: 1px solid black;
+  border-radius: 100px;
+
+  height: 1.5em;
+  width: 1.5em;
+}
+
