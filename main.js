@@ -1,2 +1,2 @@
-import '@fontsource-variable/inter';
-import './style.css'
+import "@fontsource-variable/inter";
+import "./style.css";
